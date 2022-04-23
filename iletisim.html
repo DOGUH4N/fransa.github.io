@@ -1,0 +1,51 @@
+<html>
+    <head><link href="iletisim.css" type="text/css" rel="stylesheet"></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .frm {
+        position: absolute;
+        left: 250px;
+        top: 250px;
+        
+    }
+</style>
+<body>
+
+    <table>
+        <ul class="tbl">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="yemek.html">Yemekler</a></li>
+            <li><a href="eser.html">Fransa Eser</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </table>
+
+    <div class="byrk"><a href="index.html"><img src="bayrak.png" width="70px" height="60px"></a></div>
+
+    <p class="pbir"><b> Merhaba, hoşgeldiniz. Bu sayfada iletisim için form doldurmanız gerekmektedir.</b>
+        <br>
+    </p>
+
+    <form class="frm">
+        <label for="fname">isim:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">soyisim:</label><br>
+        <input type="text" id="lname" name="lname">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="HTML">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="CSS">CSS</label><br>
+        <br>
+        <textarea name="message" style="width:200px; height:200px;" placeholder="Mesajınızı girebilirisiniz..."></textarea>
+        <br>
+        <input type="submit">
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
